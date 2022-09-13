@@ -3,9 +3,10 @@ package com.bridgelabz;
 public class FindMaximum {
 
 
-    public static Float toPrintMax(Float a ,Float b,Float c) {
 
-        Float max = a;
+    public static <T extends Comparable<T>> T toPrintMax(T a ,T b,T c) {
+
+        T max = a;
 
         if(b.compareTo(max) > 0 )
             max = b;
