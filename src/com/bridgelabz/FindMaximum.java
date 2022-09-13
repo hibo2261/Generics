@@ -1,19 +1,11 @@
-
 package com.bridgelabz;
 
 public class FindMaximum {
 
-    /**
-     *
-     *  a value is set to max
-     *  b value is compared
-     *  c value is  compared
-     *  maximum of three integer is returned
-     */
 
-    public static Integer toPrintMax(Integer a ,Integer b,Integer c) {
+    public static Float toPrintMax(Float a ,Float b,Float c) {
 
-        Integer max = a;
+        Float max = a;
 
         if(b.compareTo(max) > 0 )
             max = b;
